@@ -1,0 +1,7 @@
+{
+  "name": "appNetflix",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

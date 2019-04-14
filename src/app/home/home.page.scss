@@ -1,0 +1,20 @@
+
+.logo {
+    height: 44px;
+}
+.poster {
+    width: 140px; 
+    height: 180px;
+    background-size: cover;
+}
+.card2 {
+    width: 180px; 
+    height: 70px;
+    background: linear-gradient(rgba(229, 9, 20, 0.61), rgba(229, 9, 20, 0.61)),
+    url('/assets/images/superman2.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}

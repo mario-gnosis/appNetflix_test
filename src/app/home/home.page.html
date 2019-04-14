@@ -1,0 +1,94 @@
+<ion-header no-border>
+  <ion-toolbar color='light'>
+    <ion-buttons slot='start'>
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-img src='./assets/netflix.png' class="logo"></ion-img>
+    <ion-buttons slot='end'>
+      <ion-button>
+        <ion-icon name='search'></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+<ion-slides [options]="slidesOptions2">
+  <ion-slide>
+    <ion-card class="card2">
+      <h4>Categoria</h4>
+    </ion-card>
+  </ion-slide>
+  <ion-slide>
+      <ion-card class="card2">
+        <h4>Showing Tonight</h4>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+        <ion-card class="card2">
+          <h4>New Releases</h4>
+        </ion-card>
+      </ion-slide>     
+</ion-slides>
+
+  <ion-item lines='none'>
+    <p slot='start'>TV Show</p>
+    <ion-icon name='arrow-forward' slot='end'></ion-icon>
+  </ion-item>
+
+  <ion-slides [options]="slidesOptions">
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/flash.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/super_girl.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/superman.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/encontro.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/jiraya.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/alita.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/liga.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-item lines='none'>
+    <p slot='start'>Filmes</p>
+    <ion-icon name='arrow-forward' slot='end'></ion-icon>
+  </ion-item>
+
+  <ion-slides [options]="slidesOptions">
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/jiraya.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/alita.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/liga.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/avatar.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/aventures.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/encontro.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/pacifico.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card [style.backgroundImage]=" 'url(./assets/images/floresta.jpg)'" class="poster"></ion-card>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
